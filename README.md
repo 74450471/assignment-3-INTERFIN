@@ -13,7 +13,7 @@ def StartARIMAForecasting(Actual, p, d, q):
 	prediction = model_fit.forecast()[0]
 	return prediction 
 
-2)I have then defined the for loop function (the one that iterates over the data and stores the values in separate variables) like this: 
+2)I have then defined the for loop function (the one that iterates over the data and stores the values in separate variables) with the help of ChatGPT like this: 
 
 for timepoint in TestData.index:
     ActualValue = TestData.loc[timepoint, "Price"]
