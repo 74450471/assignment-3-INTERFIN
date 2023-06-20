@@ -24,7 +24,7 @@ for timepoint in TestData.index:
     Predictions.append(Prediction)
     Actual.append(ActualValue)
 
-3)Then I had to change the matplotlib to plot the forecast values. In the original version, the plot has not been sourcing the data from proper variables,i.e. predictions from predictions and actual from actual 
+3)Then I had to change the matplotlib to plot the forecast values. In the original version, the plot has not been sourcing the data from proper variables,i.e. predictions from predictions and actual from actual. I have used ChatGPT to help me with that
 
 import matplotlib.pyplot as plt
 import pandas as pd
